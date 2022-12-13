@@ -1,6 +1,6 @@
 
 resource "azurerm_resource_group" "example" {
-  name     = "${var.prefix}-workshop"
+  name     = "gaurav-network"
   location = var.location
 
   tags = {
